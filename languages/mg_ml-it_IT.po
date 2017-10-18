@@ -1,0 +1,3527 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Grid\n"
+"POT-Creation-Date: 2017-01-23 10:13+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin_menu.php:8 ../grid_builder.php:5
+msgid "Grid Builder"
+msgstr ""
+
+#: ../admin_menu.php:9
+msgid "Settings"
+msgstr ""
+
+#: ../admin_menu.php:28 ../admin_menu.php:42
+msgid "Grids"
+msgstr ""
+
+#: ../admin_menu.php:29
+#: ../builders_integration/cs_elements/grid/controls.php:47
+#: ../builders_integration/visual_composer.php:43 ../tinymce_btn.php:41
+msgid "Grid"
+msgstr ""
+
+#: ../admin_menu.php:30
+msgid "Search Grids"
+msgstr ""
+
+#: ../admin_menu.php:31
+msgid "Popular Grids"
+msgstr ""
+
+#: ../admin_menu.php:32
+msgid "All Grids"
+msgstr ""
+
+#: ../admin_menu.php:33
+msgid "Parent Grid"
+msgstr ""
+
+#: ../admin_menu.php:34
+msgid "Parent Grid:"
+msgstr ""
+
+#: ../admin_menu.php:35
+msgid "Edit Grid"
+msgstr ""
+
+#: ../admin_menu.php:36
+msgid "Update Grid"
+msgstr ""
+
+#: ../admin_menu.php:37
+msgid "Add New Grid"
+msgstr ""
+
+#: ../admin_menu.php:38
+msgid "New Grid"
+msgstr ""
+
+#: ../admin_menu.php:39
+msgid "Separate grids with commas"
+msgstr ""
+
+#: ../admin_menu.php:40
+msgid "Add or remove Grids"
+msgstr ""
+
+#: ../admin_menu.php:41
+msgid "Choose from most used Grids"
+msgstr ""
+
+#: ../admin_menu.php:67
+msgid "Items"
+msgstr ""
+
+#: ../admin_menu.php:68
+msgid "Item"
+msgstr ""
+
+#: ../admin_menu.php:69 ../admin_menu.php:70
+msgid "Add New Item"
+msgstr "Aggiungi nuovo oggetto"
+
+#: ../admin_menu.php:71
+msgid "Edit Item"
+msgstr ""
+
+#: ../admin_menu.php:72
+msgid "New Item"
+msgstr ""
+
+#: ../admin_menu.php:73
+msgid "View Item"
+msgstr ""
+
+#: ../admin_menu.php:74
+msgid "Search Items"
+msgstr ""
+
+#: ../admin_menu.php:75 ../ajax.php:454 ../grid_builder.php:149
+#: ../grid_builder.php:190
+msgid "No items found"
+msgstr ""
+
+#: ../admin_menu.php:76
+msgid "No items found in Trash"
+msgstr ""
+
+#: ../admin_menu.php:77
+msgid "Parent Item:"
+msgstr ""
+
+#: ../admin_menu.php:78
+msgid "Media Grid"
+msgstr ""
+
+#: ../admin_menu.php:108 ../admin_menu.php:122 ../ajax.php:410
+msgid "Item Categories"
+msgstr ""
+
+#: ../admin_menu.php:109
+msgid "Item Category"
+msgstr ""
+
+#: ../admin_menu.php:110
+msgid "Search Item Categories"
+msgstr ""
+
+#: ../admin_menu.php:112
+msgid "All Item Categories"
+msgstr ""
+
+#: ../admin_menu.php:113
+msgid "Parent Item Category"
+msgstr ""
+
+#: ../admin_menu.php:114
+msgid "Parent Item Category:"
+msgstr ""
+
+#: ../admin_menu.php:115
+msgid "Edit Item Category"
+msgstr ""
+
+#: ../admin_menu.php:116
+msgid "Update Item Category"
+msgstr ""
+
+#: ../admin_menu.php:117
+msgid "Add New Item Category"
+msgstr ""
+
+#: ../admin_menu.php:118
+msgid "New Item Category"
+msgstr ""
+
+#: ../admin_menu.php:119
+msgid "Separate item categories with commas"
+msgstr ""
+
+#: ../admin_menu.php:120
+msgid "Add or remove Item Categories"
+msgstr ""
+
+#: ../admin_menu.php:121
+msgid "Choose from most used Item Categories"
+msgstr ""
+
+#: ../admin_menu.php:147 ../admin_menu.php:148 ../admin_menu.php:150
+msgid "Item updated"
+msgstr ""
+
+#: ../admin_menu.php:149
+msgid "Item deleted"
+msgstr ""
+
+#: ../admin_menu.php:152
+#, php-format
+msgid "Item restored to revision from %s"
+msgstr ""
+
+#: ../admin_menu.php:153
+msgid "Item published"
+msgstr ""
+
+#: ../admin_menu.php:154
+msgid "Item saved"
+msgstr ""
+
+#: ../admin_menu.php:155
+msgid "Item submitted"
+msgstr ""
+
+#: ../admin_menu.php:156
+#, php-format
+msgid "Item scheduled for: <strong>%1$s</strong>"
+msgstr ""
+
+#: ../admin_menu.php:156
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../admin_menu.php:157
+msgid "Item draft updated"
+msgstr ""
+
+#: ../admin_menu.php:221
+msgid "Title"
+msgstr ""
+
+#: ../admin_menu.php:223
+msgid "Categories"
+msgstr ""
+
+#: ../admin_menu.php:224
+msgid "Type"
+msgstr ""
+
+#: ../admin_menu.php:225 ../classes/items_meta_fields.php:285
+msgid "Lightbox Layout"
+msgstr ""
+
+#: ../admin_menu.php:226
+msgid "Date"
+msgstr ""
+
+#: ../admin_menu.php:227
+msgid "Main Image"
+msgstr ""
+
+#: ../admin_menu.php:296
+msgid "Any category"
+msgstr ""
+
+#: ../ajax.php:62
+msgid "Previous images"
+msgstr ""
+
+#: ../ajax.php:68 ../shortcodes.php:684
+msgid "page"
+msgstr "pagina"
+
+#: ../ajax.php:68 ../ajax.php:159 ../grid_builder.php:446 ../shortcodes.php:684
+msgid "of"
+msgstr "di"
+
+#: ../ajax.php:68 ../ajax.php:70
+msgid "images per page"
+msgstr ""
+
+#: ../ajax.php:74
+msgid "Next images"
+msgstr ""
+
+#: ../ajax.php:128
+msgid "No audio files found"
+msgstr ""
+
+#: ../ajax.php:153
+msgid "Previous tracks"
+msgstr ""
+
+#: ../ajax.php:159 ../ajax.php:161
+msgid "tracks per page"
+msgstr ""
+
+#: ../ajax.php:165
+msgid "Next tracks"
+msgstr ""
+
+#: ../ajax.php:192 ../classes/items_meta_fields.php:875 ../metaboxes.php:285
+msgid "No tracks selected"
+msgstr ""
+
+#: ../ajax.php:338
+msgid "Source grid not found"
+msgstr ""
+
+#: ../ajax.php:396
+msgid "expand builder"
+msgstr ""
+
+#: ../ajax.php:402
+msgid "Add Grid Items"
+msgstr ""
+
+#: ../ajax.php:411
+msgid "Select item categories"
+msgstr ""
+
+#: ../ajax.php:412 ../ajax.php:425
+msgid "Any"
+msgstr ""
+
+#: ../ajax.php:422 ../metaboxes.php:112
+msgid "Item Type"
+msgstr ""
+
+#: ../ajax.php:424
+msgid "Select item type"
+msgstr ""
+
+#: ../ajax.php:441
+msgid "Select items"
+msgstr ""
+
+#: ../ajax.php:442
+msgid "search items"
+msgstr ""
+
+#: ../ajax.php:444 ../classes/items_meta_fields.php:823
+#: ../classes/items_meta_fields.php:885 ../shortcodes.php:86
+msgid "search"
+msgstr ""
+
+#: ../ajax.php:445
+msgid "cancel"
+msgstr ""
+
+#: ../ajax.php:447 ../grid_builder.php:214
+msgid "expand"
+msgstr ""
+
+#: ../ajax.php:466
+msgid "Bulk items width"
+msgstr ""
+
+#: ../ajax.php:467 ../ajax.php:474 ../ajax.php:486 ../ajax.php:494
+msgid "Select a size"
+msgstr ""
+
+#: ../ajax.php:481 ../ajax.php:502 ../settings.php:436
+msgid "Set"
+msgstr ""
+
+#: ../ajax.php:485
+msgid "Bulk items height"
+msgstr ""
+
+#: ../ajax.php:491 ../ajax.php:499
+msgid "auto"
+msgstr ""
+
+#: ../ajax.php:517
+msgid "Grid Preview"
+msgstr ""
+
+#: ../ajax.php:518
+msgid "mobile view"
+msgstr ""
+
+#: ../ajax.php:518 ../ajax.php:519
+msgid "OFF"
+msgstr ""
+
+#: ../ajax.php:519
+msgid "easy sorting"
+msgstr ""
+
+#: ../ajax.php:520
+msgid "add pagination block"
+msgstr ""
+
+#: ../ajax.php:588
+msgid "remove item"
+msgstr ""
+
+#: ../ajax.php:589 ../ajax.php:710 ../ajax.php:787 ../dynamic_footer.php:106
+msgid "edit item"
+msgstr ""
+
+#: ../ajax.php:598 ../ajax.php:615 ../ajax.php:796 ../ajax.php:812
+msgid "Width"
+msgstr ""
+
+#: ../ajax.php:605 ../ajax.php:622 ../ajax.php:803 ../ajax.php:819
+#: ../settings.php:1224
+msgid "Height"
+msgstr ""
+
+#: ../ajax.php:631 ../ajax.php:828
+msgid "move item backwards"
+msgstr ""
+
+#: ../ajax.php:633 ../ajax.php:830
+msgid "move item forwards"
+msgstr ""
+
+#: ../ajax.php:642
+msgid "No items in the grid"
+msgstr ""
+
+#: ../ajax.php:702
+msgid "preview item"
+msgstr ""
+
+#: ../ajax.php:707
+msgid "add to grid"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:29
+#: ../builders_integration/visual_composer.php:22 ../tinymce_btn.php:223
+msgid "no initial filter"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:58
+#: ../builders_integration/visual_composer.php:64 ../tinymce_btn.php:53
+msgid "Title under items?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:59
+#: ../tinymce_btn.php:61
+msgid "Moves overlay title beneath items"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:63
+#: ../builders_integration/cs_elements/grid/controls.php:173
+#: ../builders_integration/cs_elements/grid/controls.php:194
+#: ../builders_integration/visual_composer.php:68
+#: ../builders_integration/visual_composer.php:187
+#: ../builders_integration/visual_composer.php:210 ../tinymce_btn.php:56
+#: ../tinymce_btn.php:169 ../tinymce_btn.php:190 ../woocom_metabox.php:44
+msgid "No"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:64
+#: ../builders_integration/visual_composer.php:69 ../tinymce_btn.php:57
+msgid "Yes - attached to item"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:65
+#: ../builders_integration/visual_composer.php:70 ../tinymce_btn.php:58
+msgid "Yes - detached from item"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:73
+#: ../builders_integration/visual_composer.php:55 ../tinymce_btn.php:64
+msgid "Enable search?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:74
+#: ../builders_integration/visual_composer.php:57 ../tinymce_btn.php:68
+msgid "Enables search bar for grid items"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:83
+#: ../builders_integration/visual_composer.php:81 ../tinymce_btn.php:72
+msgid "Enable filters?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:84
+#: ../builders_integration/visual_composer.php:83 ../tinymce_btn.php:76
+msgid "Allows items filtering by category"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:91
+#: ../builders_integration/visual_composer.php:92 ../tinymce_btn.php:79
+msgid "Filters position"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:96
+msgid "on top"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:97
+msgid "left side"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:98
+msgid "right side"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:106
+#: ../builders_integration/visual_composer.php:108 ../tinymce_btn.php:89
+msgid "Hide \"All\" filter?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:107
+#: ../builders_integration/visual_composer.php:110 ../tinymce_btn.php:93
+msgid "Hides the \"All\" option from filters"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:114
+#: ../builders_integration/visual_composer.php:118 ../tinymce_btn.php:96
+msgid "Default filter"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:127
+#: ../builders_integration/visual_composer.php:128 ../tinymce_btn.php:104
+msgid "Relative Width"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:128
+msgid ""
+"Relative width (in pixels) to calculate cells size.<br/>Leave empty to auto-"
+"calculate"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:138
+#: ../builders_integration/visual_composer.php:141 ../settings.php:469
+#: ../tinymce_btn.php:139
+msgid "Grid Cells Margin"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:139
+#: ../builders_integration/visual_composer.php:145
+msgid "Custom cells margin in pixels. Leave empty to use default value"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:145
+#: ../builders_integration/visual_composer.php:151 ../settings.php:479
+#: ../tinymce_btn.php:144
+msgid "Image Border Size"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:146
+#: ../builders_integration/visual_composer.php:155
+msgid "Custom images border in pixels. Leave empty to use default value"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:152
+#: ../builders_integration/visual_composer.php:161 ../settings.php:112
+#: ../settings.php:1296 ../tinymce_btn.php:149
+msgid "Image Border Color"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:153
+#: ../builders_integration/visual_composer.php:165 ../tinymce_btn.php:156
+msgid "Custom border color. Leave empty to use default value"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:159
+#: ../builders_integration/visual_composer.php:171 ../settings.php:27
+#: ../settings.php:489 ../tinymce_btn.php:159
+msgid "Cells Border Radius"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:160
+#: ../builders_integration/visual_composer.php:175
+msgid "Custom cells border radius in pixels. Leave empty to use default value"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:166
+#: ../builders_integration/visual_composer.php:181 ../tinymce_btn.php:164
+msgid "Display outer cell's border?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:171
+#: ../builders_integration/cs_elements/grid/controls.php:192
+#: ../builders_integration/visual_composer.php:185
+#: ../builders_integration/visual_composer.php:208 ../tinymce_btn.php:167
+#: ../tinymce_btn.php:188
+msgid "As default"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:172
+#: ../builders_integration/cs_elements/grid/controls.php:193
+#: ../builders_integration/visual_composer.php:186
+#: ../builders_integration/visual_composer.php:209 ../tinymce_btn.php:168
+#: ../tinymce_btn.php:189 ../woocom_metabox.php:43
+msgid "Yes"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:180
+#: ../builders_integration/visual_composer.php:194 ../tinymce_btn.php:175
+msgid "Outer Border Color"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:181
+#: ../builders_integration/visual_composer.php:198 ../tinymce_btn.php:182
+msgid "Custom outer border color. Leave empty to use default value"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:187
+#: ../builders_integration/visual_composer.php:204 ../tinymce_btn.php:185
+msgid "Display cells shadow?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:201
+#: ../builders_integration/visual_composer.php:217 ../settings.php:119
+#: ../settings.php:1369 ../tinymce_btn.php:196
+msgid "Text under images color"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:202
+#: ../builders_integration/visual_composer.php:221 ../tinymce_btn.php:203
+msgid "Custom color for text under images. Leave empty to use default value"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:217
+#: ../builders_integration/visual_composer.php:232 ../tinymce_btn.php:117
+msgid "default one"
+msgstr ""
+
+#: ../builders_integration/cs_elements/grid/controls.php:230
+#: ../builders_integration/visual_composer.php:242 ../tinymce_btn.php:114
+msgid "Custom Overlay"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:40
+#: ../builders_integration/visual_composer.php:50
+#: ../builders_integration/visual_composer.php:61
+#: ../builders_integration/visual_composer.php:76
+#: ../builders_integration/visual_composer.php:88
+#: ../builders_integration/visual_composer.php:102
+#: ../builders_integration/visual_composer.php:114
+#: ../builders_integration/visual_composer.php:125
+#: ../builders_integration/visual_composer.php:239
+msgid "Main Parameters"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:47 ../grid_builder.php:49
+#: ../grid_builder.php:506 ../tinymce_btn.php:43
+msgid "Select a grid"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:95 ../tinymce_btn.php:82
+msgid "On top"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:96 ../tinymce_btn.php:83
+msgid "Left side"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:97 ../tinymce_btn.php:84
+msgid "Right side"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:121
+msgid "Choose a default filter to show the grid"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:132
+msgid ""
+"Relative width (in pixels) to calculate cells size. Leave empty to auto-"
+"calculate"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:138
+#: ../builders_integration/visual_composer.php:148
+#: ../builders_integration/visual_composer.php:158
+#: ../builders_integration/visual_composer.php:168
+#: ../builders_integration/visual_composer.php:178
+#: ../builders_integration/visual_composer.php:191
+#: ../builders_integration/visual_composer.php:201
+#: ../builders_integration/visual_composer.php:214 ../tinymce_btn.php:35
+msgid "Customizations"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:256
+msgid "Displays LCweb's Media Grid"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:258
+msgid "Content"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:668
+msgid ""
+"<strong>ERROR:</strong> There was an error connecting to the server, Please "
+"verify the settings are correct."
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:693
+msgid "Confirm the cache file deletion?"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:721
+msgid "Clean cache"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:723
+msgid "Connection Information"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:724
+msgid "Your system is set up properly"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:824
+msgid "Error creating the cache directory"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:839
+msgid "Error creating the test file"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:958
+msgid "Cache folder doesn't exists"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:974
+msgid "01 - WP_filesystem - connection failed"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:991
+msgid "Filename or contents are missing"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1003 ../classes/easy_wp_thumbs.php:1008
+msgid "02 - WP_filesystem - connection failed"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1017
+msgid "Error creating the file"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1144
+msgid "WP image not found or invalid image path"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1156
+msgid "File extension not supported"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1493
+msgid "thumb creation failed"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:31
+msgid "No effect"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:31
+msgid "Ken Burns animation"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:32
+msgid "Zoom on hover"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:37
+msgid "Ken Burns effect?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:39
+msgid "If checked applies Ken Burns effect to images"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:39
+msgid ""
+"If checked applies Ken Burns effect to grid's image (will discard Overlay "
+"Manager effects)"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:43
+msgid "Display overlay?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:45
+msgid "If checked displays overlay for this item"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:50
+msgid "Slider's height"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:54
+msgid "% is related to its width"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:58 ../classes/items_meta_fields.php:304
+msgid "Image's display mode"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:61
+msgid "Choose how images will be managed by slider"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:65
+msgid "Autoplay slideshow?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:67
+msgid "If checked autoplays slider slideshow"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:71
+msgid "Show thumbnails?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:74
+msgid "Choose whether and how to show slider thumbnails"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:78
+msgid "Display captions?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:80
+msgid "If checked displays slider image captions"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:84
+msgid "Random images?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:86
+msgid "If checked, randomizes slider images"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:91
+msgid "Use featured image as video poster?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:93
+msgid "If checked, sets featured image as video poster"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:97
+msgid "Autoplay video?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:104
+msgid "Soundcloud track's URL"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:106
+msgid "Filling this field, selected tracklist <strong>will be ignored</strong>"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:111
+msgid "Link URL"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:117
+msgid "Link target"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:120
+msgid "In the same page"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:121
+msgid "In a new page"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:123
+msgid "Choose how link will be opened"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:127
+msgid "Use nofollow?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:129
+msgid "If enabled, uses rel=\"nofollow\" on link"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:133
+msgid "Post type and taxonomy"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:136
+msgid "Choose the post type and taxonomy to fetch the post from"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:140
+msgid "Taxonomy's term"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:143
+msgid "Choose the taxonomy's term to fetch the post from"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:148
+msgid "Query offset"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:154
+msgid "Sets how many posts to skip during the query"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:158
+msgid "Use item's featured image?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:160
+msgid "If checked, uses item's featured image in grids instead of post's one"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:164
+msgid "Hide featured image in lightbox?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:166
+msgid "If checked, hides posts featured image in lightbox"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:170
+msgid "Direct link to post?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:172 ../classes/items_meta_fields.php:269
+msgid "If checked, turns item into a direct link"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:177
+msgid "Box background color"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:179
+msgid "Leave blank to use the default one (transparent allowed)"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:184
+msgid "Background color's opacity"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:194
+msgid "Use featured image as background?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:196
+msgid "If checked uses featured image as box background"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:200
+msgid "Text main color"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:202
+msgid "Leave blank to use the default one"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:206 ../classes/items_meta_fields.php:217
+msgid "Vertical alignment"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:209 ../classes/items_meta_fields.php:220
+msgid "middle"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:210 ../classes/items_meta_fields.php:221
+msgid "top"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:211 ../classes/items_meta_fields.php:222
+msgid "bottom"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:213
+msgid "Text vertical alignment in the box"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:224
+msgid "Text's vertical alignment in the box"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:228
+msgid "Disable dynamic text resizing?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:230
+msgid "Check only having complex elements to manage"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:234
+msgid "Custom CSS (optional)"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:237
+msgid "custom CSS applied to the item. <strong>DO NOT use selectors</strong>"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:242
+msgid "Spacer visibility"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:245
+msgid "always visible"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:246
+msgid "hidden by default"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:247
+msgid "hidden on mobile"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:249
+msgid "Set spacer visibility in grid modes"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:259
+msgid "Product categories"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:267
+msgid "Direct link to product?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:273
+msgid "Prepend featured image?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:275
+msgid "If checked, prepends featured image in slider"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:292
+msgid "Lightbox max-width"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:299
+msgid "Leave blank to use global lightbox sizing"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:307
+msgid "Fill wrapper's width"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:308
+msgid "Avoid enlargements"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:310
+msgid "Set how image will be managed in lightbox"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:315
+msgid "Image's max-height"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:321
+msgid "Leave blank to not resize lightbox image"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:326
+msgid "Match contents height?"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:328
+msgid ""
+"If subject's height is smaller than texts, match it (only side-text layout)"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:332
+msgid "Image's effect"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:335
+msgid "Choose which effects to apply to lightbox image"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:339
+msgid "Contents padding"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:345
+msgid "Set contents custom padding (top - right - bottom - left)"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:398
+msgid "Grid Item Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:399
+msgid "Slider Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:400
+msgid "Slider Images"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:401
+msgid "Video Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:402
+msgid "Audio Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:403
+msgid "Tracklist"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:404
+msgid "Link Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:405
+msgid "Post Content Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:406
+msgid "Inline Text Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:407
+msgid "Spacer Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:408
+msgid "Lightbox Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:409 ../functions.php:723
+msgid "Custom Attributes"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:411
+msgid "Product Options"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:412
+msgid "Without gallery images"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:413
+msgid "With gallery images"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:652 ../settings.php:692 ../settings.php:810
+#: ../settings.php:917 ../settings.php:1110 ../settings.php:1132
+#: ../settings.php:1170 ../tinymce_btn.php:55 ../tinymce_btn.php:166
+#: ../tinymce_btn.php:187
+msgid "Select an option"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:757
+msgid "No custom attributes created for this type"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:791
+msgid "Custom icon <em>To be used in secondary and custom overlays</em>"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:798
+msgid "use default icon"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:827
+msgid "Choose images"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:827
+msgid "Manage Images"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:889
+msgid "Choose tracks"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:889
+msgid "Manage Tracks"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:902
+msgid "Video URL"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:905
+msgid "search in media library"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:906
+msgid ""
+"Insert Youtube (<strong>http://youtu.be</strong>), Vimeo or Dailymotion "
+"clean video url. Otherwise select a video from your media library"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:1021
+msgid "Insert a Youtube / Vimeo video URL or set it to empty"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:1033
+msgid "Invalid URL inserted"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:1151
+msgid "Wordpress Video Management"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:1152
+#: ../classes/simple_form_validator.php:423
+msgid "Select"
+msgstr ""
+
+#: ../classes/items_meta_fields.php:1165
+msgid ""
+"Please select a valid video file for the WP player. Supported extensions:"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:239
+msgid "Visit plugin site"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:244
+msgid "Updater active"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:244
+msgid "Setup updater"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:325
+msgid "Unknown error"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:362
+msgid "Automatic Updates - Purchase Validation"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:364
+msgid "how to get purchase code?"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:370
+msgid "Envato username"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:373
+msgid "Purchase code"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:376
+msgid "Validate"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:381
+msgid ""
+"<strong style='color: #d54e21;'>IMPORTANT</strong>: purchase code can be "
+"used only for ONE domain. Use it <strong>only</strong> in final production "
+"website!"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:387
+msgid "Purchase successfully validated!"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:388
+msgid "Use new credentials"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:405
+msgid "Username missing"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:408
+msgid "Purchase code missing or incorrect"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:464
+msgid "Empty username or purchase code"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:491
+msgid "Item not found"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:494
+msgid "Purchase code already redeemed on another domain"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:497
+msgid "Error connecting to Envato servers"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:500
+msgid "Wrong username or purchase code"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:353
+#: ../classes/simple_form_validator.php:379
+msgid "characters"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:379
+msgid "has to be long"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:423
+msgid "options"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:511
+msgid "are required"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:511
+msgid "is required"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr ""
+
+#: ../dynamic_footer.php:32 ../settings.php:261
+msgid "no results"
+msgstr ""
+
+#: ../functions.php:285
+msgid "Default loader"
+msgstr ""
+
+#: ../functions.php:286
+msgid "Rotating square"
+msgstr ""
+
+#: ../functions.php:287
+msgid "Overlapping circles"
+msgstr ""
+
+#: ../functions.php:288
+msgid "Stretching rectangles"
+msgstr ""
+
+#: ../functions.php:289
+msgid "Spinning & filling square"
+msgstr ""
+
+#: ../functions.php:290
+msgid "Pulsing circle"
+msgstr ""
+
+#: ../functions.php:291
+msgid "Spinning dots"
+msgstr ""
+
+#: ../functions.php:292
+msgid "Appearing cubes"
+msgstr ""
+
+#: ../functions.php:293
+msgid "Folding cube"
+msgstr ""
+
+#: ../functions.php:294
+msgid "Old-style spinner"
+msgstr ""
+
+#: ../functions.php:295
+msgid "Minimal spinner"
+msgstr ""
+
+#: ../functions.php:296
+msgid "Spotify-like spinner"
+msgstr ""
+
+#: ../functions.php:297
+msgid "Vortex"
+msgstr ""
+
+#: ../functions.php:298
+msgid "Bubbling Dots"
+msgstr ""
+
+#: ../functions.php:299
+msgid "Overlapping dots"
+msgstr ""
+
+#: ../functions.php:300
+msgid "Fading circles"
+msgstr ""
+
+#: ../functions.php:309
+msgid "Image"
+msgstr ""
+
+#: ../functions.php:310
+msgid "Image Gallery"
+msgstr ""
+
+#: ../functions.php:311 ../functions.php:324
+msgid "Video"
+msgstr ""
+
+#: ../functions.php:312 ../functions.php:326
+msgid "Audio"
+msgstr ""
+
+#: ../functions.php:320
+msgid "Static Image"
+msgstr ""
+
+#: ../functions.php:321
+msgid "Single Image"
+msgstr ""
+
+#: ../functions.php:322
+msgid "Images Slider"
+msgstr ""
+
+#: ../functions.php:323
+msgid "Inline Slider"
+msgstr ""
+
+#: ../functions.php:325
+msgid "Inline Video"
+msgstr ""
+
+#: ../functions.php:327
+msgid "Inline Audio"
+msgstr ""
+
+#: ../functions.php:328
+msgid "Link"
+msgstr ""
+
+#: ../functions.php:329
+msgid "Custom Content"
+msgstr ""
+
+#: ../functions.php:330
+msgid "Post Contents"
+msgstr ""
+
+#: ../functions.php:331
+msgid "Inline Text"
+msgstr ""
+
+#: ../functions.php:332
+msgid "Spacer"
+msgstr ""
+
+#: ../functions.php:333 ../settings.php:848
+msgid "WooCommerce"
+msgstr ""
+
+#: ../functions.php:342
+msgid "Commands + full text"
+msgstr ""
+
+#: ../functions.php:343
+msgid "Commands + page numbers"
+msgstr ""
+
+#: ../functions.php:344
+msgid "Only arrows"
+msgstr ""
+
+#: ../functions.php:345
+msgid "Only arrows - detached"
+msgstr ""
+
+#: ../functions.php:356
+msgid "Item's lightbox"
+msgstr ""
+
+#: ../functions.php:357
+msgid "Category filter"
+msgstr ""
+
+#: ../functions.php:358
+msgid "Items search"
+msgstr ""
+
+#: ../functions.php:359
+msgid "Grid pagination"
+msgstr ""
+
+#: ../functions.php:371
+msgid "Inside lightbox"
+msgstr ""
+
+#: ../functions.php:372
+msgid "Detached - top of the page"
+msgstr ""
+
+#: ../functions.php:373
+msgid "Detached - on sides"
+msgstr ""
+
+#: ../functions.php:374
+msgid "Inside - hidden navigation"
+msgstr ""
+
+#: ../functions.php:375
+msgid "Detached - hidden navigation"
+msgstr ""
+
+#: ../functions.php:376
+msgid "Rounded - hidden navigation"
+msgstr ""
+
+#: ../functions.php:387
+msgid "Full Width"
+msgstr ""
+
+#: ../functions.php:388
+msgid "Text on right side - one third"
+msgstr ""
+
+#: ../functions.php:389
+msgid "Text on left side - one third"
+msgstr ""
+
+#: ../functions.php:390
+msgid "Text on right side - one half"
+msgstr ""
+
+#: ../functions.php:391
+msgid "Text on left side - one half"
+msgstr ""
+
+#: ../functions.php:402
+msgid "Fit, center and crop"
+msgstr ""
+
+#: ../functions.php:403
+msgid "Scale down"
+msgstr ""
+
+#: ../functions.php:404
+msgid "Scale to fill the height"
+msgstr ""
+
+#: ../functions.php:405
+msgid "Scale to fill the width"
+msgstr ""
+
+#: ../functions.php:406
+msgid "Fit images with landscape proportions"
+msgstr ""
+
+#: ../functions.php:407
+msgid "Fit images with portrait proportions"
+msgstr ""
+
+#: ../functions.php:418 ../functions.php:434
+msgid "Fade and slide"
+msgstr ""
+
+#: ../functions.php:419 ../functions.php:435
+msgid "Fade"
+msgstr ""
+
+#: ../functions.php:420
+msgid "Flash"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Pulse"
+msgstr ""
+
+#: ../functions.php:422 ../functions.php:436
+msgid "Slide"
+msgstr ""
+
+#: ../functions.php:423
+msgid "None"
+msgstr ""
+
+#: ../functions.php:437
+msgid "Zoom-in"
+msgstr ""
+
+#: ../functions.php:438
+msgid "Zoom-out"
+msgstr ""
+
+#: ../functions.php:449
+msgid "Always"
+msgstr ""
+
+#: ../functions.php:450
+msgid "Yes with toggle button"
+msgstr ""
+
+#: ../functions.php:451
+msgid "No with toggle button"
+msgstr ""
+
+#: ../functions.php:452
+msgid "Never"
+msgstr ""
+
+#: ../functions.php:463
+msgid "no effect"
+msgstr ""
+
+#: ../functions.php:464
+msgid "zoom-in"
+msgstr ""
+
+#: ../functions.php:465
+msgid "zoom-out"
+msgstr ""
+
+#: ../functions.php:466
+msgid "zoom & flip"
+msgstr ""
+
+#: ../functions.php:467
+msgid "skew"
+msgstr ""
+
+#: ../functions.php:469
+msgid "symmetrical vertical"
+msgstr ""
+
+#: ../functions.php:470
+msgid "symmetrical horizontal"
+msgstr ""
+
+#: ../functions.php:472
+msgid "genie | top side"
+msgstr ""
+
+#: ../functions.php:473
+msgid "genie | right side"
+msgstr ""
+
+#: ../functions.php:474
+msgid "genie | bottom side"
+msgstr ""
+
+#: ../functions.php:475
+msgid "genie | left side"
+msgstr ""
+
+#: ../functions.php:477
+msgid "slide | top-right corner"
+msgstr ""
+
+#: ../functions.php:478
+msgid "slide | bottom-right corner"
+msgstr ""
+
+#: ../functions.php:479
+msgid "slide | bottom-left corner"
+msgstr ""
+
+#: ../functions.php:480
+msgid "slide | top-left corner"
+msgstr ""
+
+#: ../functions.php:482
+msgid "slide | top side"
+msgstr ""
+
+#: ../functions.php:483
+msgid "slide | right side"
+msgstr ""
+
+#: ../functions.php:484
+msgid "slide | bottom side"
+msgstr ""
+
+#: ../functions.php:485
+msgid "slide | left side"
+msgstr ""
+
+#: ../functions.php:506
+msgid "ease"
+msgstr ""
+
+#: ../functions.php:507
+msgid "linear"
+msgstr ""
+
+#: ../functions.php:508
+msgid "ease-in"
+msgstr ""
+
+#: ../functions.php:509
+msgid "ease-out"
+msgstr ""
+
+#: ../functions.php:510
+msgid "ease-in-out"
+msgstr ""
+
+#: ../functions.php:511
+msgid "ease-in-back"
+msgstr ""
+
+#: ../functions.php:512
+msgid "ease-out-back"
+msgstr ""
+
+#: ../functions.php:513
+msgid "ease-in-out-back"
+msgstr ""
+
+#: ../functions.php:839
+msgid "Select a term"
+msgstr ""
+
+#: ../functions.php:840 ../functions.php:851
+msgid "all"
+msgstr ""
+
+#: ../functions.php:1132
+msgid "remove pagination"
+msgstr ""
+
+#: ../functions.php:1135
+msgid "Pagination block"
+msgstr ""
+
+#: ../functions.php:1250 ../metaboxes.php:284
+msgid "No images selected"
+msgstr ""
+
+#: ../functions.php:1256
+msgid "Edit video URL"
+msgstr ""
+
+#: ../functions.php:1259
+msgid "set as video slide"
+msgstr ""
+
+#: ../functions.php:1356 ../settings.php:260
+msgid "All"
+msgstr "Tutto"
+
+#: ../functions.php:1538
+msgid "Choose an icon"
+msgstr ""
+
+#: ../grid_builder.php:14
+msgid "Add Grid"
+msgstr ""
+
+#: ../grid_builder.php:17
+msgid "Grid Name"
+msgstr ""
+
+#: ../grid_builder.php:18
+msgid "Add"
+msgstr ""
+
+#: ../grid_builder.php:24 ../grid_builder.php:441 ../grid_builder.php:446
+#: ../grid_builder.php:449
+msgid "Grid List"
+msgstr ""
+
+#: ../grid_builder.php:33
+msgid "Save grid"
+msgstr ""
+
+#: ../grid_builder.php:36 ../settings.php:440
+msgid "Preview"
+msgstr ""
+
+#: ../grid_builder.php:219
+msgid "collapse"
+msgstr ""
+
+#: ../grid_builder.php:280
+msgid "Remove the item?"
+msgstr ""
+
+#: ../grid_builder.php:352
+msgid "Grid added"
+msgstr ""
+
+#: ../grid_builder.php:432
+msgid "clone grid"
+msgstr ""
+
+#: ../grid_builder.php:440 ../grid_builder.php:517
+msgid "No existing grids"
+msgstr ""
+
+#: ../grid_builder.php:446
+msgid "pag"
+msgstr "pag"
+
+#: ../grid_builder.php:465
+msgid "New grid's name"
+msgstr ""
+
+#: ../grid_builder.php:481
+msgid "Grid cloned"
+msgstr ""
+
+#: ../grid_builder.php:494
+msgid "Delete definitively the grid?"
+msgstr ""
+
+#: ../grid_builder.php:565
+msgid "Grid saved"
+msgstr ""
+
+#: ../grid_builder.php:786 ../grid_builder.php:799
+msgid "Every grid item will be affected, continue?"
+msgstr ""
+
+#: ../lightbox.php:560 ../lightbox.php:582
+msgid "Share it!"
+msgstr ""
+
+#: ../lightbox.php:567
+msgid "Tweet it!"
+msgstr ""
+
+#: ../lightbox.php:574
+msgid "Pin it!"
+msgstr ""
+
+#: ../lightbox.php:641
+msgid "loading image"
+msgstr ""
+
+#: ../metaboxes.php:9
+msgid "Thumbnail Center"
+msgstr ""
+
+#: ../metaboxes.php:10
+msgid "Search Helper"
+msgstr ""
+
+#: ../metaboxes.php:11
+msgid "Item Options"
+msgstr ""
+
+#: ../metaboxes.php:113
+msgid "Select type"
+msgstr ""
+
+#: ../metaboxes.php:159
+msgid "Item's lightbox preview"
+msgstr ""
+
+#: ../metaboxes.php:169
+msgid "Changing item type unsaved data will be lost. Continue?"
+msgstr ""
+
+#: ../metaboxes.php:391
+msgid "Warning - This item has not a featured image"
+msgstr ""
+
+#: ../settings.php:13
+msgid "Media Grid Settings"
+msgstr ""
+
+#: ../settings.php:25
+msgid "Cells Margin"
+msgstr ""
+
+#: ../settings.php:26
+msgid "Image Border"
+msgstr ""
+
+#: ../settings.php:28
+msgid "Cells Outer Border"
+msgstr ""
+
+#: ../settings.php:29
+msgid "Cells Shadow"
+msgstr ""
+
+#: ../settings.php:30 ../settings.php:514
+msgid "Grid max width"
+msgstr ""
+
+#: ../settings.php:31 ../settings.php:523
+msgid "Mobile layout treshold"
+msgstr ""
+
+#: ../settings.php:32
+msgid "Thumbnail quality"
+msgstr ""
+
+#: ../settings.php:33 ../settings.php:541
+msgid "Title under images - custom padding"
+msgstr ""
+
+#: ../settings.php:34 ../settings.php:551
+msgid "Inline texts padding"
+msgstr ""
+
+#: ../settings.php:42
+msgid "Side filters - column width"
+msgstr ""
+
+#: ../settings.php:44
+msgid "\"All\" filter's text"
+msgstr ""
+
+#: ../settings.php:45
+msgid "\"no items found\" text"
+msgstr ""
+
+#: ../settings.php:47
+msgid "Pagination button style"
+msgstr ""
+
+#: ../settings.php:48
+msgid "Pagination button alignment"
+msgstr ""
+
+#: ../settings.php:49
+msgid "Pagination button layout"
+msgstr ""
+
+#: ../settings.php:52
+msgid "Inline slider transition duration"
+msgstr ""
+
+#: ../settings.php:53
+msgid "Inline slider - Slideshow interval"
+msgstr ""
+
+#: ../settings.php:57
+msgid "Facebook Button"
+msgstr ""
+
+#: ../settings.php:58
+msgid "Twitter Button"
+msgstr ""
+
+#: ../settings.php:59
+msgid "Pinterest Button"
+msgstr ""
+
+#: ../settings.php:60
+msgid "Google+ Button"
+msgstr ""
+
+#: ../settings.php:64 ../settings.php:837
+msgid "XML sitemap - items base-url"
+msgstr ""
+
+#: ../settings.php:70 ../settings.php:900
+msgid "Preview container"
+msgstr ""
+
+#: ../settings.php:72 ../settings.php:925
+msgid "Disable right click"
+msgstr ""
+
+#: ../settings.php:73 ../settings.php:933
+msgid "Ken Berns effect's timing"
+msgstr ""
+
+#: ../settings.php:75
+msgid "Force inline css usage"
+msgstr ""
+
+#: ../settings.php:79
+msgid "Enable Ajax Support"
+msgstr ""
+
+#: ../settings.php:81
+msgid "Lightbox loader - border radius"
+msgstr ""
+
+#: ../settings.php:82
+msgid "Lightbox percentage width"
+msgstr ""
+
+#: ../settings.php:83
+msgid "Lightbox maximum width"
+msgstr ""
+
+#: ../settings.php:84
+msgid "Lightbox padding"
+msgstr ""
+
+#: ../settings.php:85
+msgid "Lightbox border width"
+msgstr ""
+
+#: ../settings.php:86
+msgid "Lightbox border radius"
+msgstr ""
+
+#: ../settings.php:96
+msgid "Lightbox background effect - timing"
+msgstr ""
+
+#: ../settings.php:105
+msgid "Lightbox slider - transition duration"
+msgstr ""
+
+#: ../settings.php:106
+msgid "Lightbox slider - Slideshow interval"
+msgstr ""
+
+#: ../settings.php:107
+msgid "Lightbox slider - Global width"
+msgstr ""
+
+#: ../settings.php:110
+msgid "Loader color"
+msgstr ""
+
+#: ../settings.php:111
+msgid "Cells border color"
+msgstr ""
+
+#: ../settings.php:113 ../settings.php:1307
+msgid "Image Border Opacity"
+msgstr ""
+
+#: ../settings.php:114 ../settings.php:1317
+msgid "Main Overlay Color"
+msgstr ""
+
+#: ../settings.php:115 ../settings.php:1328
+msgid "Main Overlay Opacity"
+msgstr ""
+
+#: ../settings.php:116 ../settings.php:118
+msgid "Second Overlay Color"
+msgstr ""
+
+#: ../settings.php:117
+msgid "Icons Color"
+msgstr ""
+
+#: ../settings.php:121
+msgid "Filters and search Text Color"
+msgstr ""
+
+#: ../settings.php:122
+msgid "Filters and search Background Color"
+msgstr ""
+
+#: ../settings.php:123
+msgid "Filters and search Border Color"
+msgstr ""
+
+#: ../settings.php:124
+msgid "Filters and search Text Color - hover status"
+msgstr ""
+
+#: ../settings.php:125
+msgid "Filters and search Background Color - hover status"
+msgstr ""
+
+#: ../settings.php:126
+msgid "Filters and search Border Color - hover status"
+msgstr ""
+
+#: ../settings.php:127
+msgid "Filters and search Text Color - selected status"
+msgstr ""
+
+#: ../settings.php:128
+msgid "Filters and search Background Color - selected status"
+msgstr ""
+
+#: ../settings.php:129
+msgid "Filters Border Color - selected status"
+msgstr ""
+
+#: ../settings.php:130
+msgid "Filter and search Border Radius"
+msgstr ""
+
+#: ../settings.php:132
+msgid "Lightbox Overlay color"
+msgstr ""
+
+#: ../settings.php:133
+msgid "Lightbox Overlay opacity"
+msgstr ""
+
+#: ../settings.php:134
+msgid "Lightbox Overlay pattern"
+msgstr ""
+
+#: ../settings.php:135
+msgid "Lightbox background color"
+msgstr ""
+
+#: ../settings.php:136
+msgid "Lightbox border color"
+msgstr ""
+
+#: ../settings.php:137
+msgid "Lightbox text color"
+msgstr ""
+
+#: ../settings.php:138
+msgid "Lightbox icons color"
+msgstr ""
+
+#: ../settings.php:139
+msgid "Lightbox commands - background color"
+msgstr ""
+
+#: ../settings.php:141 ../settings.php:1581
+msgid "Main overlay - font size"
+msgstr ""
+
+#: ../settings.php:142 ../settings.php:1590
+msgid "Main overlay - font size (on mobile)"
+msgstr ""
+
+#: ../settings.php:144 ../settings.php:1607
+msgid "Title under items - font size"
+msgstr ""
+
+#: ../settings.php:145 ../settings.php:1616
+msgid "Title under items - font size (on mobile)"
+msgstr ""
+
+#: ../settings.php:147 ../settings.php:1636
+msgid "Filters and search - font size"
+msgstr ""
+
+#: ../settings.php:148 ../settings.php:1645
+msgid "Filters and search - font size (on mobile)"
+msgstr ""
+
+#: ../settings.php:151
+msgid "Lightbox title - font size"
+msgstr ""
+
+#: ../settings.php:152
+msgid "Lightbox title - line height"
+msgstr ""
+
+#: ../settings.php:153
+msgid "Lightbox title - font size (on mobile)"
+msgstr ""
+
+#: ../settings.php:154
+msgid "Lightbox title - line height (on mobile)"
+msgstr ""
+
+#: ../settings.php:156
+msgid "Lightbox text - font size"
+msgstr ""
+
+#: ../settings.php:157
+msgid "Lightbox text - line height"
+msgstr ""
+
+#: ../settings.php:158
+msgid "Lightbox text - font size (on mobile)"
+msgstr ""
+
+#: ../settings.php:159
+msgid "Lightbox text - line height (on mobile)"
+msgstr ""
+
+#: ../settings.php:162 ../settings.php:414 ../settings.php:1853
+msgid "Custom CSS"
+msgstr ""
+
+#: ../settings.php:165
+msgid "JS for old jQuery"
+msgstr ""
+
+#: ../settings.php:171 ../settings.php:200
+msgid "Options"
+msgstr ""
+
+#: ../settings.php:183 ../settings.php:590
+msgid "Default Overlay"
+msgstr ""
+
+#: ../settings.php:200
+msgid "There are duplicate values"
+msgstr ""
+
+#: ../settings.php:229
+msgid ""
+"An error occurred during dynamic CSS creation. The code will be used inline "
+"anyway"
+msgstr ""
+
+#: ../settings.php:234
+msgid "Options saved."
+msgstr ""
+
+#: ../settings.php:409
+msgid "Main Options"
+msgstr ""
+
+#: ../settings.php:410 ../settings.php:1483
+msgid "Lightbox"
+msgstr ""
+
+#: ../settings.php:411
+msgid "Colors"
+msgstr ""
+
+#: ../settings.php:412
+msgid "Typography"
+msgstr ""
+
+#: ../settings.php:413
+msgid "Item Attributes"
+msgstr ""
+
+#: ../settings.php:419
+msgid "Predefined Styles"
+msgstr ""
+
+#: ../settings.php:423
+msgid "Choose a style"
+msgstr ""
+
+#: ../settings.php:425 ../settings.php:617 ../settings.php:627
+#: ../settings.php:682 ../settings.php:1061 ../settings.php:1098
+#: ../settings.php:1216
+msgid "Select a style"
+msgstr ""
+
+#: ../settings.php:452
+msgid "Grid Layout"
+msgstr ""
+
+#: ../settings.php:455
+msgid "Preloader"
+msgstr ""
+
+#: ../settings.php:457
+msgid "Select a preloader"
+msgstr ""
+
+#: ../settings.php:466
+msgid "Set which preloader to use for grids and lightbox"
+msgstr ""
+
+#: ../settings.php:475
+msgid "Set space between cells"
+msgstr ""
+
+#: ../settings.php:485
+msgid "Set cells border size"
+msgstr ""
+
+#: ../settings.php:495
+msgid "Set cells border radius"
+msgstr ""
+
+#: ../settings.php:498
+msgid "Display outer cell border?"
+msgstr ""
+
+#: ../settings.php:503
+msgid "If checked displays the cells external border"
+msgstr ""
+
+#: ../settings.php:506
+msgid "Display cell's shadow?"
+msgstr ""
+
+#: ../settings.php:511
+msgid "If checked displays a soft shadow around cells"
+msgstr ""
+
+#: ../settings.php:520
+msgid ""
+"Set the maximum width of the grid (used only for thumbnails sharpness, "
+"default: 960)"
+msgstr ""
+
+#: ../settings.php:529
+msgid "Set browser width treshold to use mobile mode (default: 800)"
+msgstr ""
+
+#: ../settings.php:532
+msgid "Thumbnails quality"
+msgstr ""
+
+#: ../settings.php:538
+msgid ""
+"Set the thumbnail quality. Low value = lighter but fuzzier images (default: "
+"85%)"
+msgstr ""
+
+#: ../settings.php:548
+msgid ""
+"Custom padding values for title under images (top-left-bottom-right) - leave "
+"empty to use default one"
+msgstr ""
+
+#: ../settings.php:558
+msgid "Padding values for inline texts (top-left-bottom-right)"
+msgstr ""
+
+#: ../settings.php:561
+msgid "Clean inline text box?"
+msgstr ""
+
+#: ../settings.php:566
+msgid ""
+"If checked, remove shadows, borders and background for inline text boxes"
+msgstr ""
+
+#: ../settings.php:569
+msgid "Show items without delay?"
+msgstr ""
+
+#: ../settings.php:574
+msgid "If checked, show grid items without delayed effect"
+msgstr ""
+
+#: ../settings.php:577
+msgid "Hide overlays?"
+msgstr ""
+
+#: ../settings.php:582
+msgid "If checked, hides image overlays on any grid"
+msgstr ""
+
+#: ../settings.php:592 ../tinymce_btn.php:81 ../tinymce_btn.php:116
+msgid "Select an overlay"
+msgstr ""
+
+#: ../settings.php:593
+msgid "original one"
+msgstr ""
+
+#: ../settings.php:604
+msgid "Choose the default overlay to apply"
+msgstr ""
+
+#: ../settings.php:612
+msgid "Item filters"
+msgstr ""
+
+#: ../settings.php:615
+msgid "Filtered items behavior"
+msgstr ""
+
+#: ../settings.php:618
+msgid "Hide and reorder"
+msgstr ""
+
+#: ../settings.php:619
+msgid "Reduce opacity"
+msgstr ""
+
+#: ../settings.php:622
+msgid "Select filtered items behavior"
+msgstr ""
+
+#: ../settings.php:625
+msgid "Filters alignment"
+msgstr ""
+
+#: ../settings.php:628
+msgid "Left"
+msgstr ""
+
+#: ../settings.php:629
+msgid "Center"
+msgstr ""
+
+#: ../settings.php:630
+msgid "Right"
+msgstr ""
+
+#: ../settings.php:633
+msgid "Select the filters alignment - for \"on top\" position"
+msgstr ""
+
+#: ../settings.php:636
+msgid "Use dropdown on mobile mode?"
+msgstr ""
+
+#: ../settings.php:641
+msgid "If checked, replace filters with a dropdown on mobile mode"
+msgstr ""
+
+#: ../settings.php:644
+msgid "Filters on side - column width"
+msgstr ""
+
+#: ../settings.php:650
+msgid "Column's width for side filter positions (default: 130)"
+msgstr ""
+
+#: ../settings.php:653
+msgid "Use old filters style?"
+msgstr ""
+
+#: ../settings.php:658
+msgid "If checked, use the old Media Grid filters style"
+msgstr ""
+
+#: ../settings.php:661
+msgid "\"All\" filter text"
+msgstr ""
+
+#: ../settings.php:665
+msgid "Set a different text for the \"ALL\" filter"
+msgstr ""
+
+#: ../settings.php:668
+msgid "\"no results\" text"
+msgstr ""
+
+#: ../settings.php:672
+msgid ""
+"Set a different text for message shown when no items are found searching or "
+"filtering"
+msgstr ""
+
+#: ../settings.php:677
+msgid "Pagination Settings"
+msgstr ""
+
+#: ../settings.php:680 ../settings.php:1214
+msgid "Style"
+msgstr ""
+
+#: ../settings.php:687
+msgid "Select the pagination buttons style"
+msgstr ""
+
+#: ../settings.php:690
+msgid "Button alignment"
+msgstr ""
+
+#: ../settings.php:698
+msgid "Select the pagination button alignment"
+msgstr ""
+
+#: ../settings.php:701
+msgid "Standard pagination - Layout"
+msgstr ""
+
+#: ../settings.php:703 ../woocom_metabox.php:41
+msgid "Select a layout"
+msgstr ""
+
+#: ../settings.php:712
+msgid "Select the layout to use for the standard pagination elements"
+msgstr ""
+
+#: ../settings.php:717
+msgid "Inline slider"
+msgstr ""
+
+#: ../settings.php:720 ../settings.php:1235
+msgid "Transition effect"
+msgstr ""
+
+#: ../settings.php:722 ../settings.php:1237
+msgid "Select a transition"
+msgstr ""
+
+#: ../settings.php:731 ../settings.php:1246
+msgid "Select the transition effect between slides"
+msgstr ""
+
+#: ../settings.php:734 ../settings.php:1249
+msgid "Transition duration"
+msgstr ""
+
+#: ../settings.php:740 ../settings.php:1255
+msgid "How much time the transition takes (in milliseconds - default 400)"
+msgstr ""
+
+#: ../settings.php:743 ../settings.php:1258
+msgid "Slideshow interval"
+msgstr ""
+
+#: ../settings.php:749 ../settings.php:1264
+msgid "How long each slide will be shown (in milliseconds - default 3000)"
+msgstr ""
+
+#: ../settings.php:752
+msgid "Disable touchswipe integration?"
+msgstr ""
+
+#: ../settings.php:757
+msgid "If checked disables the touchswipe integration"
+msgstr ""
+
+#: ../settings.php:760
+msgid "Pause slideshow on hover?"
+msgstr ""
+
+#: ../settings.php:765
+msgid "If checked pauses the slideshow on mouse hover"
+msgstr ""
+
+#: ../settings.php:769
+msgid "Socials"
+msgstr ""
+
+#: ../settings.php:772
+msgid "Display the Facebook button?"
+msgstr ""
+
+#: ../settings.php:777
+msgid "If checked displays the Facebook button in lightbox"
+msgstr ""
+
+#: ../settings.php:780
+msgid "Display the Twitter button?"
+msgstr ""
+
+#: ../settings.php:785
+msgid "If checked displays the Twitter button in lightbox"
+msgstr ""
+
+#: ../settings.php:788
+msgid "Display the Pinterest button?"
+msgstr ""
+
+#: ../settings.php:793
+msgid "If checked displays the Pinterest button in lightbox"
+msgstr ""
+
+#: ../settings.php:796
+msgid "Display the Google+ button?"
+msgstr ""
+
+#: ../settings.php:801
+msgid ""
+"If checked displays the Google+ button in lightbox (<strong>only with items "
+"deeplinking</strong>)"
+msgstr ""
+
+#: ../settings.php:805
+msgid ""
+"Deeplinking <small>(system adding URL parameters for direct linking)</small>"
+msgstr ""
+
+#: ../settings.php:808
+msgid "Elements to deeplink"
+msgstr ""
+
+#: ../settings.php:818
+msgid "Choose which grid systems will have their direct URL"
+msgstr ""
+
+#: ../settings.php:822
+msgid "Use full deeplinking?"
+msgstr ""
+
+#: ../settings.php:827
+msgid ""
+"If checked, a browser's history step is created for grid operations of the "
+"same type"
+msgstr ""
+
+#: ../settings.php:831
+msgid "Items XML sitemap location"
+msgstr ""
+
+#: ../settings.php:840
+msgid ""
+"Set a custom base-url to use for items link in the sitemap. By default is "
+"homepage URL"
+msgstr ""
+
+#: ../settings.php:851
+msgid "Enable WooCommerce integration?"
+msgstr ""
+
+#: ../settings.php:856
+msgid "If checked allow products usage in grids"
+msgstr ""
+
+#: ../settings.php:859
+msgid "Hide \"add to cart\" button?"
+msgstr ""
+
+#: ../settings.php:864
+msgid "If checked hide the AJAX add-to-cart button in lightbox"
+msgstr ""
+
+#: ../settings.php:867
+msgid "Hide product attributes?"
+msgstr ""
+
+#: ../settings.php:872
+msgid "If checked hide product attributes in lightbox"
+msgstr ""
+
+#: ../settings.php:881
+msgid "Timthumb basepath"
+msgstr ""
+
+#: ../settings.php:881
+msgid "for MU installations"
+msgstr ""
+
+#: ../settings.php:884
+msgid "Basepath of the WP MU images"
+msgstr ""
+
+#: ../settings.php:897
+msgid "Various"
+msgstr ""
+
+#: ../settings.php:902
+msgid "Select a page"
+msgstr ""
+
+#: ../settings.php:912
+msgid "Choose the page to use as preview container"
+msgstr ""
+
+#: ../settings.php:915
+msgid "Grid builder - add item behavior"
+msgstr ""
+
+#: ../settings.php:918
+msgid "Append item"
+msgstr ""
+
+#: ../settings.php:919
+msgid "Prepend item"
+msgstr ""
+
+#: ../settings.php:922
+msgid "Choose items addition behavior in grid builder"
+msgstr ""
+
+#: ../settings.php:930
+msgid "Check to disable right click on grid and lightbox images"
+msgstr ""
+
+#: ../settings.php:939
+msgid ""
+"Set how long Ken Burns effect takes to play once (in milliseconds). "
+"<strong>Doesn't</strong> apply to inline slider"
+msgstr ""
+
+#: ../settings.php:943
+msgid "Advanced"
+msgstr ""
+
+#: ../settings.php:946
+msgid "Use custom CSS inline?"
+msgstr ""
+
+#: ../settings.php:952
+msgid "If checked, uses custom CSS inline (useful for multisite installations)"
+msgstr ""
+
+#: ../settings.php:956
+msgid "Use Easy WP Thumbs forcing system?"
+msgstr ""
+
+#: ../settings.php:962
+msgid ""
+"Try forcing thumbnails creation, check it ONLY if you note missing thumbnails"
+msgstr ""
+
+#: ../settings.php:966
+msgid "Use TimThumb?"
+msgstr ""
+
+#: ../settings.php:972
+msgid "If checked, use Timthumb instead of Easy WP Thumbs"
+msgstr ""
+
+#: ../settings.php:976
+msgid "Use javascript in the head?"
+msgstr ""
+
+#: ../settings.php:982
+msgid ""
+"Put javascript in the website head, check it ONLY IF you notice some "
+"incompatibilities"
+msgstr ""
+
+#: ../settings.php:986
+msgid "Enable AJAX support?"
+msgstr ""
+
+#: ../settings.php:992
+msgid "Enable the support for AJAX-loaded grids"
+msgstr ""
+
+#: ../settings.php:1003 ../settings.php:1662
+msgid "Item's Lightbox"
+msgstr ""
+
+#: ../settings.php:1006
+msgid "Lightbox loader's border radius"
+msgstr ""
+
+#: ../settings.php:1012
+msgid "Use 50% to render a circle - default: 18)"
+msgstr ""
+
+#: ../settings.php:1015
+msgid "Elastic width"
+msgstr ""
+
+#: ../settings.php:1021
+msgid ""
+"Width percentage of the lightbox in relation to the screen (default: 70)"
+msgstr ""
+
+#: ../settings.php:1024
+msgid "Maximum width"
+msgstr ""
+
+#: ../settings.php:1029
+msgid "Maximum width in pixels for the lightbox (default: 960)"
+msgstr ""
+
+#: ../settings.php:1032
+msgid "Padding"
+msgstr ""
+
+#: ../settings.php:1038
+msgid ""
+"Set lightbox padding (default 20 - if commands are inside, top padding is "
+"40px)"
+msgstr ""
+
+#: ../settings.php:1041
+msgid "Border width"
+msgstr ""
+
+#: ../settings.php:1047
+msgid "Set the border lightbox border width"
+msgstr ""
+
+#: ../settings.php:1050
+msgid "Border radius"
+msgstr ""
+
+#: ../settings.php:1056
+msgid "Set the border radius for the lightbox corners"
+msgstr ""
+
+#: ../settings.php:1059
+msgid "Shadow style"
+msgstr ""
+
+#: ../settings.php:1062
+msgid "No shadow"
+msgstr ""
+
+#: ../settings.php:1063
+msgid "Soft"
+msgstr ""
+
+#: ../settings.php:1064
+msgid "Heavy"
+msgstr ""
+
+#: ../settings.php:1067
+msgid "Select lightbox shadow style"
+msgstr ""
+
+#: ../settings.php:1070
+msgid "Disable text showing effect?"
+msgstr ""
+
+#: ../settings.php:1075
+msgid "If checked, disables text showing effect on lightbox opening"
+msgstr ""
+
+#: ../settings.php:1078
+msgid "Use as modal?"
+msgstr ""
+
+#: ../settings.php:1084
+msgid "If checked, only the close button will hide the lightbox"
+msgstr ""
+
+#: ../settings.php:1088
+msgid "Use touchSwipe?"
+msgstr ""
+
+#: ../settings.php:1093
+msgid "If checked, use the touchSwipe navigation on mobile devices"
+msgstr ""
+
+#: ../settings.php:1096
+msgid "Socials style"
+msgstr ""
+
+#: ../settings.php:1099
+msgid "Squared"
+msgstr ""
+
+#: ../settings.php:1100
+msgid "Rounded"
+msgstr ""
+
+#: ../settings.php:1101
+msgid "Minimal"
+msgstr ""
+
+#: ../settings.php:1102
+msgid "Old style (images)"
+msgstr ""
+
+#: ../settings.php:1105
+msgid "Select the style for social icons"
+msgstr ""
+
+#: ../settings.php:1108
+msgid "Commands position"
+msgstr ""
+
+#: ../settings.php:1119
+msgid ""
+"Select lightbox commands position. On mobile, detached will be moved inside"
+msgstr ""
+
+#: ../settings.php:1122
+msgid "Boxed layout for inner lightbox commands?"
+msgstr ""
+
+#: ../settings.php:1130
+msgid "Lightbox entrance effect"
+msgstr ""
+
+#: ../settings.php:1133
+msgid "Static fade"
+msgstr ""
+
+#: ../settings.php:1134
+msgid "Slide and bounce"
+msgstr ""
+
+#: ../settings.php:1135
+msgid "Slide and fade"
+msgstr ""
+
+#: ../settings.php:1138
+msgid "Select which lightbox animations to use"
+msgstr ""
+
+#: ../settings.php:1142
+msgid "Lightbox Background"
+msgstr ""
+
+#: ../settings.php:1145
+msgid "Background showing effect"
+msgstr ""
+
+#: ../settings.php:1147
+msgid "Select an effect"
+msgstr ""
+
+#: ../settings.php:1156
+msgid "Select lightbox background showing effect"
+msgstr ""
+
+#: ../settings.php:1159
+msgid "Background effect's duration"
+msgstr ""
+
+#: ../settings.php:1165
+msgid "Choose how long background showing animation takes (in milliseconds)"
+msgstr ""
+
+#: ../settings.php:1168
+msgid "Background effect's easing"
+msgstr ""
+
+#: ../settings.php:1179
+msgid "Choose which easing background animation has to use"
+msgstr ""
+
+#: ../settings.php:1183
+msgid "Audio & video players"
+msgstr ""
+
+#: ../settings.php:1186
+msgid "Autoplay videos?"
+msgstr ""
+
+#: ../settings.php:1191
+msgid "If checked, autoplays lightbox videos"
+msgstr ""
+
+#: ../settings.php:1194
+msgid "Autoplay tracks?"
+msgstr ""
+
+#: ../settings.php:1199
+msgid "If checked, autoplays lightbox audio elements"
+msgstr ""
+
+#: ../settings.php:1202
+msgid "Show tracklist by default?"
+msgstr ""
+
+#: ../settings.php:1207
+msgid "If checked, shows the player tracklist by default"
+msgstr ""
+
+#: ../settings.php:1211
+msgid "Lightbox slider"
+msgstr ""
+
+#: ../settings.php:1221
+msgid "Select the slider style"
+msgstr ""
+
+#: ../settings.php:1232
+msgid "Default slider height (% is related to the width)"
+msgstr ""
+
+#: ../settings.php:1272 ../settings.php:1578
+msgid "Grid Items"
+msgstr ""
+
+#: ../settings.php:1275
+msgid "Loader Color"
+msgstr ""
+
+#: ../settings.php:1282
+msgid "Loading animation color"
+msgstr ""
+
+#: ../settings.php:1285
+msgid "Cells Outer Border Color"
+msgstr ""
+
+#: ../settings.php:1292
+msgid "The cells outer border color"
+msgstr ""
+
+#: ../settings.php:1303
+msgid "The cells image border color"
+msgstr ""
+
+#: ../settings.php:1303 ../settings.php:1400 ../settings.php:1410
+#: ../settings.php:1430 ../settings.php:1440 ../settings.php:1460
+#: ../settings.php:1470
+msgid "accept also \"transparent\" value"
+msgstr ""
+
+#: ../settings.php:1313
+msgid "Set the CSS3 image border opacity"
+msgstr ""
+
+#: ../settings.php:1324
+msgid "Color of the main overlay that appears on item mouseover"
+msgstr ""
+
+#: ../settings.php:1334
+msgid "Opacity of the main overlay that appears on item mouseover"
+msgstr ""
+
+#: ../settings.php:1338
+msgid "Secondary Overlay Color"
+msgstr ""
+
+#: ../settings.php:1345
+msgid "Color of the secondary overlay that appears on item mouseover"
+msgstr ""
+
+#: ../settings.php:1348
+msgid "Secondary Overlay Icons Color"
+msgstr ""
+
+#: ../settings.php:1355
+msgid "Color of the icons in the secondary overlay"
+msgstr ""
+
+#: ../settings.php:1359
+msgid "Overlay Title Color"
+msgstr ""
+
+#: ../settings.php:1366
+msgid "Color of the item title that appear on the main overlay"
+msgstr ""
+
+#: ../settings.php:1376
+msgid "Text color for \"titles under items\" mode"
+msgstr ""
+
+#: ../settings.php:1380
+msgid "Item filters and search bar"
+msgstr ""
+
+#: ../settings.php:1383
+msgid "Text Color"
+msgstr ""
+
+#: ../settings.php:1390
+msgid "Filters and search text color - default status"
+msgstr ""
+
+#: ../settings.php:1393
+msgid "Background Color"
+msgstr ""
+
+#: ../settings.php:1400
+msgid "Filters and search background color - default status"
+msgstr ""
+
+#: ../settings.php:1400 ../settings.php:1410 ../settings.php:1430
+#: ../settings.php:1440 ../settings.php:1460 ../settings.php:1470
+msgid "(not for old style)"
+msgstr ""
+
+#: ../settings.php:1403
+msgid "Border Color"
+msgstr ""
+
+#: ../settings.php:1410
+msgid "Filters and search border color - default status"
+msgstr ""
+
+#: ../settings.php:1413
+msgid "Text Color (on mouse hover)"
+msgstr ""
+
+#: ../settings.php:1420
+msgid "Filters and search text color - mouse hover status"
+msgstr ""
+
+#: ../settings.php:1423
+msgid "Background Color (on mouse hover)"
+msgstr ""
+
+#: ../settings.php:1430
+msgid "Filters and search background color - mouse hover status"
+msgstr ""
+
+#: ../settings.php:1433
+msgid "Border Color (on mouse hover)"
+msgstr ""
+
+#: ../settings.php:1440
+msgid "Filters and search border color - mouse hover status"
+msgstr ""
+
+#: ../settings.php:1443
+msgid "Text Color (selected filter)"
+msgstr ""
+
+#: ../settings.php:1450
+msgid "Filters and search text color - selected status"
+msgstr ""
+
+#: ../settings.php:1453
+msgid "Background Color (selected filter)"
+msgstr ""
+
+#: ../settings.php:1460
+msgid "Filters and search background color - selected status"
+msgstr ""
+
+#: ../settings.php:1463
+msgid "Border Color (selected filter)"
+msgstr ""
+
+#: ../settings.php:1470
+msgid "Filters and search border color - selected status"
+msgstr ""
+
+#: ../settings.php:1473
+msgid "Border Radius"
+msgstr ""
+
+#: ../settings.php:1479
+msgid "Set the border radius for each filter"
+msgstr ""
+
+#: ../settings.php:1479
+msgid "not for old style"
+msgstr ""
+
+#: ../settings.php:1486
+msgid "Overlay color"
+msgstr ""
+
+#: ../settings.php:1493
+msgid "Fullscreen lightbox overlay color"
+msgstr ""
+
+#: ../settings.php:1497
+msgid "Overlay Opacity"
+msgstr ""
+
+#: ../settings.php:1503
+msgid "Fullscreen lightbox overlay opacity"
+msgstr ""
+
+#: ../settings.php:1507
+msgid "Overlay Pattern"
+msgstr ""
+
+#: ../settings.php:1523
+msgid "Background color"
+msgstr ""
+
+#: ../settings.php:1530
+msgid "Lightbox background color (default: #FFFFFF)"
+msgstr ""
+
+#: ../settings.php:1533
+msgid "Border color"
+msgstr ""
+
+#: ../settings.php:1540
+msgid "Lightbox border color (default: #E5E5E5)"
+msgstr ""
+
+#: ../settings.php:1543
+msgid "Text color"
+msgstr ""
+
+#: ../settings.php:1550
+msgid "Lightbox main text color (default: #222222)"
+msgstr ""
+
+#: ../settings.php:1553
+msgid "Icons color"
+msgstr ""
+
+#: ../settings.php:1560
+msgid "Color for lightbox commands, loader and social icons (default: #333333)"
+msgstr ""
+
+#: ../settings.php:1563
+msgid "Commands background"
+msgstr ""
+
+#: ../settings.php:1570
+msgid ""
+"Background color for \"inside boxed\" and \"upon\" commands (default: "
+"#f1f1f1)"
+msgstr ""
+
+#: ../settings.php:1587
+msgid "Set the overlay's title font size (default: 14px)"
+msgstr ""
+
+#: ../settings.php:1596
+msgid "Set the overlay's title font size on mobile (default: 12px)"
+msgstr ""
+
+#: ../settings.php:1599
+msgid "Main overlay - font family"
+msgstr ""
+
+#: ../settings.php:1603
+msgid "Set the overlay's title font name - leave empty to use the default one"
+msgstr ""
+
+#: ../settings.php:1613
+msgid "Set the title under font size (default: 15px)"
+msgstr ""
+
+#: ../settings.php:1622
+msgid "Set the title under font size on mobile (default: 13px)"
+msgstr ""
+
+#: ../settings.php:1625
+msgid "Title under items - font family"
+msgstr ""
+
+#: ../settings.php:1629
+msgid "Set the title under font name - leave empty to use the default one"
+msgstr ""
+
+#: ../settings.php:1633
+msgid "Filters and search bar"
+msgstr ""
+
+#: ../settings.php:1642
+msgid "Set filters and search bar font size (default: 14px)"
+msgstr ""
+
+#: ../settings.php:1651
+msgid "Set filters and search bar font size on mobile (default: 12px)"
+msgstr ""
+
+#: ../settings.php:1654
+msgid "Filters and search - font family"
+msgstr ""
+
+#: ../settings.php:1658
+msgid ""
+"Set filters and search bar font name - leave empty to use the default one"
+msgstr ""
+
+#: ../settings.php:1665
+msgid "Item's title - font size"
+msgstr ""
+
+#: ../settings.php:1671
+msgid "Set item's title font size (default: 20px)"
+msgstr ""
+
+#: ../settings.php:1674
+msgid "Item's title - line height"
+msgstr ""
+
+#: ../settings.php:1680
+msgid "Set item's title line height (default: 29px)"
+msgstr ""
+
+#: ../settings.php:1683
+msgid "Item's title - font size (on mobile)"
+msgstr ""
+
+#: ../settings.php:1689
+msgid "Set filters font size on mobile (default: 17px)"
+msgstr ""
+
+#: ../settings.php:1692
+msgid "Item's title - line height (on mobile)"
+msgstr ""
+
+#: ../settings.php:1698
+msgid "Set item's title line height on mobile (default: 25px)"
+msgstr ""
+
+#: ../settings.php:1701
+msgid "Item's title - font family"
+msgstr ""
+
+#: ../settings.php:1705
+msgid "Set item's title font name - leave empty to use the default one"
+msgstr ""
+
+#: ../settings.php:1709
+msgid "Item's text - font size"
+msgstr ""
+
+#: ../settings.php:1715
+msgid "Set item's text font size (default: 16px)"
+msgstr ""
+
+#: ../settings.php:1718
+msgid "Item's text - line height"
+msgstr ""
+
+#: ../settings.php:1724
+msgid "Set item's text line height (default: 24px)"
+msgstr ""
+
+#: ../settings.php:1727
+msgid "Item's text - font size (on mobile)"
+msgstr ""
+
+#: ../settings.php:1733
+msgid "Set filters font size on mobile (default: 14px)"
+msgstr ""
+
+#: ../settings.php:1736
+msgid "Item's text - line height (on mobile)"
+msgstr ""
+
+#: ../settings.php:1742
+msgid "Set item's text line height on mobile (default: 22px)"
+msgstr ""
+
+#: ../settings.php:1745
+msgid "Item's text - font family"
+msgstr ""
+
+#: ../settings.php:1749
+msgid "Set item's text font name - leave empty to use the default one"
+msgstr ""
+
+#: ../settings.php:1762
+msgid "Sync with WPML"
+msgstr ""
+
+#: ../settings.php:1763
+msgid "Save the options before sync"
+msgstr ""
+
+#: ../settings.php:1771 ../settings.php:1819
+msgid "Attributes"
+msgstr ""
+
+#: ../settings.php:1772
+msgid "Add option"
+msgstr ""
+
+#: ../settings.php:1777 ../settings.php:1823 ../taxonomy_options.php:25
+#: ../taxonomy_options.php:41 ../taxonomy_options.php:102
+msgid "Icon"
+msgstr ""
+
+#: ../settings.php:1778 ../settings.php:1824
+msgid "Attribute Name"
+msgstr ""
+
+#: ../settings.php:1819
+msgid "WooCommerce Product"
+msgstr ""
+
+#: ../settings.php:1862
+msgid "Elements Legend"
+msgstr ""
+
+#: ../settings.php:1926
+msgid "Update Options"
+msgstr ""
+
+#: ../settings.php:1935 ../taxonomy_options.php:154
+msgid "no icon"
+msgstr ""
+
+#: ../settings.php:1958
+msgid "Options synced succesfully"
+msgstr ""
+
+#: ../settings.php:1959
+msgid "Error syncing"
+msgstr ""
+
+#: ../settings.php:1969
+msgid "It will overwrite your current settings, continue?"
+msgstr ""
+
+#: ../settings.php:2032
+msgid "Delete the option"
+msgstr ""
+
+#: ../taxonomy_options.php:30 ../taxonomy_options.php:47
+msgid "Category icon, shown before the category name"
+msgstr ""
+
+#: ../taxonomy_options.php:33 ../taxonomy_options.php:51
+#: ../taxonomy_options.php:103
+msgid "Order"
+msgstr ""
+
+#: ../taxonomy_options.php:35 ../taxonomy_options.php:54
+msgid "Category order used in grid filters"
+msgstr ""
+
+#: ../tinymce_btn.php:30
+msgid "No grids found"
+msgstr ""
+
+#: ../tinymce_btn.php:34
+msgid "Main parameters"
+msgstr ""
+
+#: ../tinymce_btn.php:98
+msgid "Select a filter"
+msgstr ""
+
+#: ../tinymce_btn.php:106
+msgid "Relative width to calculate cells size. Leave empty to auto-calculate"
+msgstr ""
+
+#: ../tinymce_btn.php:141
+msgid "Custom cells margin. Leave empty to use default value"
+msgstr ""
+
+#: ../tinymce_btn.php:146
+msgid "Custom images border. Leave empty to use default value"
+msgstr ""
+
+#: ../tinymce_btn.php:161
+msgid "Custom cells border radius. Leave empty to use default value"
+msgstr ""
+
+#: ../tinymce_btn.php:172
+msgid "Whether to display outer border"
+msgstr ""
+
+#: ../tinymce_btn.php:193
+msgid "Whether to display cells shadow"
+msgstr ""
+
+#: ../tinymce_btn.php:210
+msgid "Insert Grid"
+msgstr ""
+
+#: ../woocom_metabox.php:7
+msgid "Media Grid - Thumbnail Center"
+msgstr ""
+
+#: ../woocom_metabox.php:8
+msgid "Media Grid Integration"
+msgstr ""
+
+#: ../woocom_metabox.php:40
+msgid "Enable product for grids?"
+msgstr ""
+
+#: ../woocom_metabox.php:42
+msgid "as default"
+msgstr ""
+
+#: ../woocom_metabox.php:46
+msgid "Individual product enabling for grid usage - overrides global option"
+msgstr ""
+
+#~ msgid "show more"
+#~ msgstr "mostra altro"
+
+#~ msgid "Back to the collection"
+#~ msgstr "Torna alla collezione"

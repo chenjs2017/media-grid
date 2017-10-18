@@ -1,0 +1,96 @@
+/* MANDATORY STYLES */
+.lcms_wrap {
+	width: 100%;
+	height: 100%;	
+	position: relative;
+	overflow: hidden !important;
+}
+.lcms_slide {
+	position: absolute;	
+	width: 100%;
+	height: 100%;	
+	z-index: 100;
+	top: 0%;
+	left: 0%;
+}
+.lcms_inner {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	overflow: hidden;
+	
+	-webkit-transition: opacity .3s ease-in; 
+	-ms-transition: 	opacity .3s ease-in; 
+	transition: 		opacity .3s ease-in;
+}
+.lcms_preload .lcms_inner {
+	opacity: 0;	
+	filter: alpha(opacity=0);
+}
+.lcms_cached {
+	-webkit-transition: opacity .0s ease-in !important; 
+	-ms-transition: 	opacity .0s ease-in !important; 
+	transition: 		opacity .0s ease-in !important;	
+}
+.lcms_slide.lcms_fadein {
+	z-index: 90;	
+}
+.lcms_bg, .lcms_content {
+	position: absolute;	
+}
+.lcms_bg {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	
+	background: transparent; 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;		
+}
+.lcms_content {
+	z-index: 20;
+}
+
+
+/* default CSS3 loader */
+.lcms_loader:before,
+.lcms_loader:after {
+	content: "";
+	position: absolute;
+	height: 0px;
+	width: 0px;
+	top: 50%;
+	left: 50%;
+	margin-top: 0;
+	margin-left: 0;	
+	border-radius: 50%;
+	
+	-webkit-animation: lcms_loader 2s infinite  ease-in-out;
+	animation: lcms_loader 2s infinite ease-in-out;
+}
+.lcms_loader:before {
+	z-index: 100; 
+	background: #555;
+	background: rgba(50, 50, 50, 0.4);
+}
+.lcms_loader:after {
+	z-index: 110; 
+	background: #777;
+	background: rgba(70, 70, 70, 0.4);
+	-webkit-animation-delay: -1s;
+	animation-delay: -1s;
+}
+@-webkit-keyframes lcms_loader {
+	0% { width: 0; height: 0; margin-top: 0; margin-left: 0; }
+	50% { width: 30px; height: 30px; margin-top: -15px; margin-left: -15px; }
+	100% { width: 0; height: 0; margin-top: 0; margin-left: 0; }
+}
+@keyframes lcms_loader {
+	0% { width: 0; height: 0; margin-top: 0; margin-left: 0; }
+	50% { width: 30px; height: 30px; margin-top: -15px; margin-left: -15px; }
+	100% { width: 0; height: 0; margin-top: 0; margin-left: 0; }
+}
