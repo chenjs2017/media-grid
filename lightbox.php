@@ -6,7 +6,7 @@ function mg_ajax_lightbox() {
 		include_once(MG_DIR . '/functions.php');
 		header('Content-Type: text/html; charset=utf-8');
 	
-		if(!isset($_POST['pid']) || !filter_var($_POST['pid'], FILTER_VALIDATE_INT)) {die('item id is missing');}
+		//if(!isset($_POST['pid']) || !filter_var($_POST['pid'], FILTER_VALIDATE_INT)) {die('item id is missing');}
 		$pid = addslashes($_POST['pid']);
 		
 		$prev = (isset($_POST['prev_id'])) ? (int)$_POST['prev_id'] : false;
@@ -22,6 +22,10 @@ add_action('wp_loaded', 'mg_ajax_lightbox', 999);
 // lightbox code
 function mg_lightbox($post_id, $prev_item = false, $next_item = false) {
 	include_once(MG_DIR . '/functions.php');
+	$orig_post_id = $post_id; // keep it for custom behaviors
+	if (strpos($post_id, '_')) {
+       $post_id = explode('_', $post_id)[0];
+    }
 
 	$post_data = get_post($post_id);
 	$GLOBALS['post'] = $post_data; 
@@ -53,7 +57,7 @@ function mg_lightbox($post_id, $prev_item = false, $next_item = false) {
 		
 		// post contents type - manage resulting type and true post ID
 		if($type == 'post_contents') {
-			$post = mg_post_contents_get_post($post_id);
+			$post = mg_post_contents_get_post($orig_post_id);
 			
 			if(!$post) {die('no posts found');}
 			else {

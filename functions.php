@@ -894,24 +894,36 @@ function mg_get_grid_data($grid_id) {
 }
 
 
+
+
 //////////////////////////////////////////////////////////
-
-
 // get related post for Post Contents item type
-function mg_post_contents_get_post($item_id) {
+function mg_post_contents_get_post($item_id, $only_count=false) {
+    if (strpos($item_id, '_')) {
+        $post_id = explode('_', $item_id)[1];
+		return get_post($post_id);
+    }
+
 	$cpt_tax_arr = explode('|||', get_post_meta($item_id, 'mg_cpt_source', true));
 	$term = get_post_meta($item_id, 'mg_cpt_tax_term', true); 
-	
+	$offset = (int)get_post_meta($item_id, 'mg_post_query_offset', true);
 	$args = array(
+		'orderby' => 'date',
+		'order' => 'DESC',
 		'post_type' => $cpt_tax_arr[0],  
 		'post_status' => 'publish', 
 		'posts_per_page' => 1,
-		'offset' => (int)get_post_meta($item_id, 'mg_post_query_offset', true),
+		'offset' => $offset,
 		'meta_query' => array( 
 			array( 'key' => '_thumbnail_id')
 		)
 	);
 	
+	if ($only_count) {
+		$args['posts_per_page'] = 200;	
+		$args['fields'] = 'ids';
+	}
+
 	if($term) {
 		$args['tax_query'] = array(
 			array(
@@ -924,8 +936,11 @@ function mg_post_contents_get_post($item_id) {
 	} else {
 		$args['taxonomy'] = $cpt_tax_arr[1];
 	}
-	
+
 	$query = new WP_query($args);
+	if ($only_count == true) {
+		return $query->posts;
+	}
 	return (count($query->posts)) ? $query->posts[0] : false;	
 }
 

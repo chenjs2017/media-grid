@@ -185,9 +185,37 @@ function mg_shortcode( $atts, $content = null ) {
 		$GLOBALS['mg_items_cust_icon'] = array();		
 	}
 
+	if (sizeof($grid_data['items']) == 1  ) {
+		$arr_h = array('1_3', '2_5','1_3', '2_5', '1_3');
+		$item = $grid_data['items'][0]; 	
+		$post_arr = mg_post_contents_get_post ($item['id'], true);
+		$count = sizeof($post_arr);
+//		echo 'count=' . $count;
+		
+		for ($i = 1 ; $i < $count; $i++) {
+			$item = $grid_data['items'][0]; 	
+			if ($i < 5) {
+				$item['h'] = $arr_h[$i];
+			}
+			$item['id'] .= '_' . $post_arr[$i]; 
+			array_push($grid_data['items'], $item);
+			/*
+			if ($i % 20 == 0) {
+				$item['id'] = 'paginator'; 
+				array_push($grid_data['items'], $item);
+			}
+			*/
+		}
+	} 
+//	var_dump($grid_data);
+
+
 	foreach($grid_data['items'] as $item) {
 		$post_id = $item['id'];
 		$orig_post_id = $post_id; // keep it for custom behaviors
+		if (strpos($post_id, '_')) {
+			$post_id = explode('_', $post_id)[0];
+		}
 		$item_classes = array();
 		
 		// pagination management
@@ -216,8 +244,18 @@ function mg_shortcode( $atts, $content = null ) {
 		
 		// post contents - get related post data
 		if($orig_main_type == 'post_contents') {
-			$post = mg_post_contents_get_post($post_id);
+			$offset = -1;
+			if ($item['offset']) {
+				$offset = $item['offset'];
+			}
+				
+			$post = mg_post_contents_get_post($orig_post_id, false, $offset);
 			if(!$post) {continue;}
+			$filename = get_the_post_thumbnail_url($post);
+			$ext = pathinfo($filename, PATHINFO_EXTENSION);
+			if ($ext == 'gif') {
+				continue;
+			}
 			
 			$pc_direct_link = get_post_meta($post_id, 'mg_link_to_post', true);
 			$post_id = $post->ID;
