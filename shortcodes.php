@@ -185,26 +185,17 @@ function mg_shortcode( $atts, $content = null ) {
 		$GLOBALS['mg_items_cust_icon'] = array();		
 	}
 
-	if (sizeof($grid_data['items']) == 1  ) {
-		$arr_h = array('1_3', '2_5','1_3', '2_5', '1_3');
-		$item = $grid_data['items'][0]; 	
-		$post_arr = mg_post_contents_get_post ($item['id'], true);
-		$count = sizeof($post_arr);
-//		echo 'count=' . $count;
-		
-		for ($i = 1 ; $i < $count; $i++) {
-			$item = $grid_data['items'][0]; 	
-			if ($i < 5) {
-				$item['h'] = $arr_h[$i];
-			}
-			$item['id'] .= '_' . $post_arr[$i]; 
-			array_push($grid_data['items'], $item);
-			/*
-			if ($i % 20 == 0) {
-				$item['id'] = 'paginator'; 
+	$item_count = sizeof($grid_data['items']);
+	if ($item_count >1 && $grid_data['items'][$item_count -1]  ) {
+		$seed = $grid_data['items'][$item_count - 1]; 	
+		if (get_post_meta($seed['id'], 'mg_main_type', true) == 'post_contents') {
+			$post_arr = mg_post_contents_get_post ($seed['id'], true);
+			$count = sizeof($post_arr);
+			for ($i = 1 ; $i < $count; $i++) {
+				$item = $seed;
+				$item['id'] .= '_' . $post_arr[$i]; 
 				array_push($grid_data['items'], $item);
 			}
-			*/
 		}
 	} 
 //	var_dump($grid_data);

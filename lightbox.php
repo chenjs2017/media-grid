@@ -147,6 +147,8 @@ function mg_lightbox($post_id, $prev_item = false, $next_item = false) {
 				<img src="'. $feat_img_url .'" '. $img_zoom_attr .' alt="'.mg_sanitize_input(strip_tags($item_title)).'" '.$kb_main_img_vis.' />'.
 			'</div>';	
 	}
+
+		
 	
 
 
@@ -555,6 +557,18 @@ function mg_lightbox($post_id, $prev_item = false, $next_item = false) {
 			}
 			?>
             
+			<?php 
+			if(isset($pc_post_id)) {
+				echo '<button class="button-secondary"> <a href="' . get_permalink($pc_post_data) .'">visit</a> </button>';
+				/*
+				$video = get_post_meta($pc_post_id,'webbupointfinder_item_video', true);
+				var_dump($video);
+				if ($video) {
+					echo '<button class="button-secondary"> <a href="' . $video[0] .'" target="_blank">video</a> </button>';
+				}
+				*/
+			}
+			?>
             
 			<div class="mg_item_text <?php if($layout == 'full' && empty($cust_opt)) {echo 'mg_widetext';} ?>">
 				<?php 
