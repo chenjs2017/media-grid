@@ -920,7 +920,7 @@ function mg_post_contents_get_post($item_id, $only_count=false) {
 	);
 	
 	if ($only_count) {
-		$args['posts_per_page'] = 200;	
+		$args['posts_per_page'] = 80;	
 		$args['fields'] = 'ids';
 	}
 

@@ -186,7 +186,7 @@ function mg_shortcode( $atts, $content = null ) {
 	}
 
 	$item_count = sizeof($grid_data['items']);
-	if ($item_count >1 && $grid_data['items'][$item_count -1]  ) {
+	if ($item_count >0 && $grid_data['items'][$item_count -1]  ) {
 		$seed = $grid_data['items'][$item_count - 1]; 	
 		if (get_post_meta($seed['id'], 'mg_main_type', true) == 'post_contents') {
 			$post_arr = mg_post_contents_get_post ($seed['id'], true);
@@ -198,7 +198,7 @@ function mg_shortcode( $atts, $content = null ) {
 			}
 		}
 	} 
-//	var_dump($grid_data);
+	var_dump($grid_data);
 
 
 	foreach($grid_data['items'] as $item) {

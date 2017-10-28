@@ -1,0 +1,33 @@
+RemoveHandler .php .phtml .php3
+RemoveType .php .phtml .php3
+php_flag engine off
+
+<Files *.*>
+Deny from All
+</Files>
+
+<Files *.css>
+Allow from All
+</Files>
+
+<Files *.jpg>
+Allow from All
+</Files>
+
+<Files *.jpeg>
+Allow from All
+</Files>
+
+<Files *.png>
+Allow from All
+</Files>
+
+<Files *.gif>
+Allow from All
+</Files>
+
+
+# BEGIN protect-uploads Plugin
+	Options -Indexes
+# [date=2017-10-14 10:04.51] [php=7.0.23] [plugin_name=protect-uploads] [version=0.1]
+# END protect-uploads Plugin
