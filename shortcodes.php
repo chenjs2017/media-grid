@@ -198,7 +198,7 @@ function mg_shortcode( $atts, $content = null ) {
 			}
 		}
 	} 
-	var_dump($grid_data);
+//	var_dump($grid_data);
 
 
 	foreach($grid_data['items'] as $item) {
